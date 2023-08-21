@@ -1,0 +1,56 @@
+.MenuListItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vmin;
+    padding: 2vmin;
+    color: var(--text-light);
+    background-color: var(--white);
+    border: .1vmin solid var(--tan-3);
+    border-radius: 1vmin;
+    font-size: 4vmin;
+  }
+
+  .image {
+    height: 8vw;
+    width: 8vw;
+  }
+
+  .image-container {
+    width: 200px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    overflow: hidden; /* Hide any overflow if the image is larger than the container */
+  }
+  
+  .custom-image {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    display: block; /* Ensure proper spacing and alignment */
+  }
+  
+  .MenuListItem .emoji {
+    height: 8vw;
+    width: 8vw;
+    font-size: 4vw;
+    background-color: var(--tan-1);
+    border: .1vmin solid var(--tan-3);
+    border-radius: 1vmin;
+  }
+  
+  .MenuListItem .buy {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .MenuListItem .buy span {
+    font-size: 1.7vw;
+    text-align: center;
+    color: var(--text-light);
+  }
+  
+  .MenuListItem .name {
+    font-size: 2vw;
+    text-align: center;
+    color: var(--text-light);
+  }
